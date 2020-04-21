@@ -1,0 +1,17 @@
+{
+  "name": "the_library_back",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/elvistjw/the_library_back.git",
+  "author": "elvistjw <elvistjw1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
