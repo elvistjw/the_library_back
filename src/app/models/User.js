@@ -5,11 +5,11 @@ class User extends Model {
         super.init(
             {
                 nm_usuario: Sequelize.STRING,
-                nr_cpf: Sequelize.INTEGER,
+                nr_cpf: Sequelize.STRING,
                 ds_email: Sequelize.STRING,
-                dt_nascimento: Sequelize.DATE,
-                nr_telefone: Sequelize.INTEGER,
                 senha: Sequelize.STRING,
+                dt_nascimento: Sequelize.DATE,
+                nr_telefone: Sequelize.STRING,
             },
             {
                 sequelize,
